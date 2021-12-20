@@ -1,11 +1,29 @@
 /* Add your code in each class */
 body {
+  background-color: rgb(37, 2, 37);
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
 }
 .container {
+  height: 300px;
+  width: 400px;
 }
 .movie-card {
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .movie-image {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 5px;
+  width: 3000px;
+  height: 400px;
+  margin: 20px;
+  text-align: center;
 }
 .movie-details-container {
 }
